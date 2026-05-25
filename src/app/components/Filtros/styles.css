@@ -1,0 +1,23 @@
+.ContainerFiltros {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BotonFiltro {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.BotonFiltro:hover {
+    background-color: rgb(220, 220, 220);
+}
+
+.ContainerFiltros input {
+    padding: 10px;
+    border-radius: 10px;
+}

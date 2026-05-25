@@ -1,0 +1,30 @@
+.ContainerCharacterDetail {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.ContainerCharacterDetail img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.InfoCharacterDetail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.BackButton {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+}

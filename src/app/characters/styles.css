@@ -1,0 +1,30 @@
+.ContainerCharacters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.FiltrosContainer {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.FiltrosContainer button {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+
+.FiltrosContainer input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}

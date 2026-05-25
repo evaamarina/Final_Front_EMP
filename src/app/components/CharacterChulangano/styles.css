@@ -1,0 +1,29 @@
+.ContainerCharacterChulangano {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 25px;
+    color: white;
+    max-width: 900px;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.ContainerCharacterChulangano img {
+    border-radius: 50%;
+    height: 150px;
+}
+
+.InfoCharacterContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.InfoCharacterContainer h1 {
+    font-size: 30px;
+}
