@@ -8,15 +8,7 @@ const Paginador = ({next, prev, page, totalPages, setPage}: {
   setPage: (page: number) => void,
 }) => {
 
-  const paginas = [
-      1,
-      2,
-      3,
-      page,
-      totalPages - 2,
-      totalPages - 1,
-      totalPages
-  ];
+  const paginas = [1, 2, 3, page, totalPages - 2, totalPages - 1, totalPages];
 
   const paginasFinales = [...new Set(paginas)]
     .filter((e) => e > 0 && e <= totalPages);
